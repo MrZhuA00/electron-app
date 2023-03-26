@@ -1,0 +1,26 @@
+{
+  "name": "electron-app",
+  "version": "0.0.0",
+  "type": "commonjs",
+  "main": "./src/main/index.ts",
+  "scripts": {
+    "dev": "vite",
+    "start": "node ./infra/start.mjs",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "execa": "^7.1.1",
+    "sass": "^1.60.0",
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@types/vue": "^2.0.0",
+    "@vue/compiler-sfc": "^3.0.4",
+    "electron": "^23.2.0",
+    "electron-builder": "^23.6.0",
+    "typescript": "^5.0.2",
+    "vite": "4.2.1",
+    "vite-electron-builder": "^0.0.0"
+  }
+}
